@@ -36,11 +36,11 @@
       <!-- the real tabs -->
       {% for tab in site.tabs %}
         <li class="nav-item{% if tab.url == page.url %}{{ " active" }}{% endif %}">
-          <a href="{{ tab.override_url | tab.url | relative_url }}" class="nav-link">
-            <i class="fa-fw {{ tab.icon }} {{ tab.add_class }}"></i>
+          <a href="{% if tab.override_url %}{{tab.override_url}}{% else %}{{ tab.url | relative_url }}{% endif %}" class="nav-link">
+            <i class="fa-fw {{ tab.icon }}{% if tab.add_class %} {{ tab.add_class }}{% endif %}"></i>
             {% capture tab_name %}{{ tab.url | split: '/' }}{% endcapture %}
 
-            <span class="{{ tab.add_class }}">{{ site.data.locales[include.lang].tabs.[tab_name] | default: tab.title | upcase }}</span>
+            <span{% if tab.add_class %} class="{{ tab.add_class }}"{% endif %}>{{ site.data.locales[include.lang].tabs.[tab_name] | default: tab.title | upcase }}</span>
           </a>
         </li>
         <!-- .nav-item -->

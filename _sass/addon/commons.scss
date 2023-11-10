@@ -763,11 +763,11 @@ $btn-mb: 0.5rem;
   }
 
   .rainbow {
-    background-color: violet; /* For browsers that do not support gradients */
-    background-image: -webkit-linear-gradient(60deg, purple, violet); /* For Safari 5.1 to 6.0 */
-    background-image: -o-linear-gradient(60deg, purple, violet); /* For Opera 11.1 to 12.0 */
-    background-image: -moz-linear-gradient(60deg, purple, violet); /* For Firefox 3.6 to 15 */
-    background-image: linear-gradient(to 60deg, purple, violet); /* Standard syntax (must be last) */
+    background-color: purple; /* For browsers that do not support gradients */
+    background-image: -webkit-linear-gradient(100deg, violet, purple); /* For Safari 5.1 to 6.0 */
+    background-image: -o-linear-gradient(100deg, violet, purple); /* For Opera 11.1 to 12.0 */
+    background-image: -moz-linear-gradient(100deg, violet, purple); /* For Firefox 3.6 to 15 */
+    background-image: linear-gradient(to 100deg, violet, purple); /* Standard syntax (must be last) */
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;

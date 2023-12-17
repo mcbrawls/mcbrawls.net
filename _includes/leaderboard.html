@@ -1,0 +1,18 @@
+{% assign leaderboard = include.data | sort: 'Level' | sort: 'Total Experience' | 'reverse' %}
+
+<table class="leaderboard">
+    <tbody>
+        <tr>
+          {% for cell in leaderboard[0] %}
+            <td>{{ cell[0] }}</td>
+          {% endfor %}
+        </tr>
+        {% for row in leaderboard %}
+        <tr>
+          {% for cell in row %}
+            <td>{{ cell[1] }}</td>
+          {% endfor %}
+        </tr>
+      {% endfor %}
+    </tbody>
+</table>

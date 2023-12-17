@@ -15,8 +15,12 @@ refactor: true
   
     <div class="post-meta text-muted">
       <span>
+        This data is updated manually and not live.
+      </span>
+      <br>
+      <span>
         {{ site.data.locales[lang].post.updated }}
-        {% include datetime.html date=page.last_updated tooltip=true lang=lang %}
+        <strong>{% include datetime.html date=page.last_updated tooltip=true lang=lang %}</strong>
       </span>
     </div>
   </header>

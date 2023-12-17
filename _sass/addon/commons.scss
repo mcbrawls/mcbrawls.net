@@ -308,6 +308,10 @@ sup {
 table.leaderboard {
   counter-reset: rowNumber;
 
+  tr:first-child {
+    font-weight: bold;
+  }
+
   tr:first-child::before {
     display: table-cell;
     content: " ";
@@ -318,8 +322,12 @@ table.leaderboard {
     display: table-cell;
     counter-increment: rowNumber;
     content: counter(rowNumber) ".";
-    padding-right: 0.3em;
     text-align: right;
+    padding: 0.4rem 0.4rem;
+  }
+
+  tr:not(:first-child) td:first-of-type {
+    font-style: italic;
   }
 }
 

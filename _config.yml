@@ -132,7 +132,10 @@ collections:
     output: true
   tabs:
     output: true
-    sort_by: order
+    order:
+      - leaderboards.md
+      - status.md
+      - store.md
 
 defaults:
   - scope:

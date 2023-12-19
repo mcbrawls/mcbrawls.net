@@ -1,6 +1,5 @@
 ---
 icon: fas fa-signal
-order: 3
 override_url: https://status.mcbrawls.net
 ---
 

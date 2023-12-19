@@ -1,6 +1,5 @@
 ---
 icon: fas fa-chart-simple
-order: 2
 ---
 
 This is the page for official MC Brawls leaderboards, previously found at <strong>stats.mcbrawls.net</strong>.

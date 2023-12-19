@@ -8,6 +8,7 @@ This is the page for official MC Brawls leaderboards, previously found at <stron
 ## Available Leaderboards
 
 - [Experience Leaderboard](/leaderboards/experience)
+- [Chat Frequency Leaderboard](/leaderboards/chat-frequency)
 
 ## Available Legacy Leaderboards
 

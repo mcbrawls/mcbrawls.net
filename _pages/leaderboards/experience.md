@@ -8,4 +8,4 @@ description: |
 last_updated: 2023-12-17 09:54:00 +0000
 ---
 
-{% include leaderboard.html data=site.data.leaderboards.experience %}
+{% include leaderboard.html data = site.data.leaderboards.experience %}

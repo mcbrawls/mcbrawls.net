@@ -6,4 +6,5 @@ description: |
 last_updated: 2023-08-03 06:00:00 +1000
 ---
 
-{% include leaderboard.html data = site.data.leaderboards.legacy_experience %}
+{% assign leaderboard = site.data.leaderboards.legacy_experience %}
+{% include leaderboard.html data = leaderboard %}

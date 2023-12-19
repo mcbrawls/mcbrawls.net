@@ -6,4 +6,5 @@ description: |
 last_updated: 2023-12-19 17:54:00 +0000
 ---
 
-{% include leaderboard.html data = site.data.leaderboards.chat_frequency %}
+{% assign leaderboard = site.data.leaderboards.chat_frequency %}
+{% include leaderboard.html data = leaderboard %}

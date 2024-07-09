@@ -1,7 +1,7 @@
 ---
 layout: game
 title: Rocket Spleef
-banner: /img/game/rocket_spleef_banner.png
+banner: /img/game/rocket_spleef_banner_2.png
 description: |
     Run, jump, fly, explode! Everyone has an Elytra, Rocket Launcher and one life. Blast around the map without falling into the void to win. Last player standing / highest player, takes the prize.
 ---

@@ -10,6 +10,8 @@ refactor: true
 
 {% assign posts = '' | split: '' %}
 
+{{ content }}
+
 <!-- Get pinned posts -->
 
 {% assign offset = paginator.page | minus: 1 | times: paginator.per_page %}

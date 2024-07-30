@@ -133,8 +133,10 @@ collections:
   tabs:
     output: true
     order:
-      - leaderboards.md
+      - games.md
+      - rules.md
       - status.md
+      - faq.md
       - store.md
 
 defaults:

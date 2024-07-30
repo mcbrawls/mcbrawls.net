@@ -2,4 +2,12 @@
 icon: fas fa-gamepad
 ---
 
-*Work in progress.*
+{% for page in site.pages %}
+{% if page.layout == 'game' %}
+### <i class="fa-fw {{ page.icon }}"></i> [{{ page.title }}]({{ page.url }})
+
+{{ page.description }}
+
+![Banner]({{ page.banner }})
+{% endif %}
+{% endfor %}

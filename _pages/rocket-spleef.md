@@ -1,12 +1,13 @@
 ---
 layout: game
 title: Rocket Spleef
+icon: fas fa-rocket
 banner: /img/game/rocket_spleef_banner_2.png
 description: |
     Run, jump, fly, explode! Everyone has an Elytra, Rocket Launcher and one life. Blast around the map without falling into the void to win. Last player standing / highest player, takes the prize.
 ---
 
-# ℹ Overview
+# Overview
 
 **Rocket Spleef** is a game is made up of **8 to 16 players**, each with an **Elytra** and **Rocket Launcher**.
 
@@ -44,7 +45,7 @@ TNT is falling from the sky and **exploding on impact**. These behave the same w
 
 Your rocket count is reset to 10! There is no cooldown on your additional rockets, so fire as fast as you can to your advantage! The mutator ends after 10 seconds or when everyone uses their extra rockets, at which your rockets are reset to normal.
 
-# ‼️ Last Stand
+# Last Stand
 
 At the 45 second mark, or when there are only 2 players left, the game will enter the Last Stand.
 

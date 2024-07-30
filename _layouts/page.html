@@ -9,7 +9,7 @@ refactor: true
   {% assign tab_key = page.title | downcase %}
   {% assign title = site.data.locales[lang].tabs[tab_key] | default: page.title %}
   <h1 class="dynamic-title">
-    {{ title }}
+    <p>{% if page.icon %}<i class="fa-fw {{ page.icon }}{% if add_class %} {{ add_class }}{% endif %}"></i> {%endif%}{{ title }}</p>
   </h1>
   <div class="content">
     {{ content }}

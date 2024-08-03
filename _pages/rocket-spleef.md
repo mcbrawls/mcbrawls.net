@@ -9,7 +9,7 @@ description: |
 
 # Overview
 
-**Rocket Spleef** is a game is made up of **8 to 16 players**, each with an **Elytra** and **Rocket Launcher**.
+**Rocket Spleef** is a game is made up of **5 to 12 players**, each with an **Elytra** and **Rocket Launcher**.
 
 Players fight in **3-minute rounds** to be the last player standing! Experience is granted based on your placement at the end of the round.
 

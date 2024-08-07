@@ -21,7 +21,16 @@
       <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
     </h1>
     <p class="site-subtitle fst-italic mb-0">{{ site.tagline }}</p>
+    <hr>
+    <p class="site-subtitle mb-0" id="ip-copy"><code>play.mcbrawls.net</code><br>(Click to copy)</p>
   </header>
+
+  <script>
+    document.getElementById("ip-copy").addEventListener("click", function() {
+      navigator.clipboard.writeText("play.mcbrawls.net")
+      alert("Copied the server IP!")
+    })
+  </script>
   <!-- .profile-wrapper -->
 
   <nav class="flex-column flex-grow-1 w-100 ps-0">

@@ -20,7 +20,7 @@ There are plenty of MCC remakes out there to satisfy anyone wanting that, though
 
 MCC Island will slowly be rolling out their games also, so eventually any hard work put in to recreate the games would result to nothing.
 
-*I would also love to avoid a cease and desist from noxcrew x*
+*I would also love to avoid a cease and desist from Noxcrew x*
 
 ## How can I support the server?
 

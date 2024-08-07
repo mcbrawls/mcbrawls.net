@@ -1,5 +1,7 @@
 ---
 icon: fas fa-gamepad
+title: Games
+excerpt: Take a look at all the games.
 ---
 
 {% for page in site.pages %}

@@ -1,6 +1,7 @@
 ---
 icon: fas fa-question
 title: FAQ
+excerpt: Find answers to frequently asked questions.
 ---
 
 ## How do I play?

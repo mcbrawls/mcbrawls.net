@@ -1,5 +1,7 @@
 ---
 icon: fas fa-scale-balanced
+title: Rules
+excerpt: The official rules and punishment procedures for MC Brawls.
 ---
 
 *Work in progress.*

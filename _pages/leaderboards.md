@@ -6,7 +6,7 @@ icon: fas fa-chart-simple
 
 ---
 
-## **Update 30/07/2024**
+## **Update 12/08/2024**
 
 Leaderboards can now be viewed live on MC Brawls as holograms.  
 Check the lobbies for continually updating, live leaderboards!

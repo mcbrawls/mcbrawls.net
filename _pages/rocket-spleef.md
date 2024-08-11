@@ -75,6 +75,10 @@ Patches of ice spawn around the map, making the map slippier!
 
 ![Crystal and Comb Map](/img/game/rocket_spleef_map_crystal_and_comb.png)
 
+## <i class="fas fa-user-astronaut"></i> UFO
+
+![UFO Map](/img/game/rocket_spleef_map_ufo.png)
+
 # Last Stand
 
 At the 45 second mark, or when there are only 2 players left, the game will enter the Last Stand.

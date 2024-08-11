@@ -4,6 +4,7 @@ author: andante
 date: 2024-03-24 14:39:00 +0000
 image:
     path: /img/banner.png
+published: false
 ---
 
 Hello! The next update for MC Brawls is heavily in development, and we're looking for feedback on the direction of Brawls. We would love to hear your opinions!

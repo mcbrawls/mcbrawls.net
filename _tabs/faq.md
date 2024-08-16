@@ -22,6 +22,12 @@ MCC Island will slowly be rolling out their games also, so eventually any hard w
 
 *I would also love to avoid a cease and desist from Noxcrew x*
 
+## Why doesn't Dodgebolt earn me XP?
+
+Release 0.6.0 included an effort to remove Dodgebolt from the rest of the server. As it's not our game, we don't want it to affect server progression.
+
+Dodgebolt still tracks statistics and these are visible on the Dodgebolt leaderboards!
+
 ## How can I support the server?
 
 Grab some friends and play! Getting more people to play Brawls and have fun is the best way to support the server and keep it alive.

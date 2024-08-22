@@ -54,10 +54,14 @@
   white-space: nowrap;
 }
 
-%link-hover {
+%link-hover:not(.anchor) {
   color: #ce81ee !important;
   border-bottom: 1px solid #ce81ee;
   text-decoration: none;
+}
+
+%link-hover.anchor {
+  color: var(--link-color);
 }
 
 %link-color {

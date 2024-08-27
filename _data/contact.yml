@@ -8,9 +8,10 @@
   icon: "fab fa-x-twitter"
   url: https://twitter.com/mcbrawls
 
-- type: github
-  icon: "fab fa-github"
+- type: youtube
+  icon: "fab fa-youtube"
+  url: https://youtube.com/@mcbrawls
 
-- type: rss
-  icon: "fas fa-rss"
-  noblank: true
+- type: tiktok
+  icon: "fab fa-tiktok"
+  url: https://tiktok.com/@mcbrawls

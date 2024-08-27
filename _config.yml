@@ -135,8 +135,7 @@ collections:
     order:
       - games.md
       - rules.md
-      - status.md
-      - faq.md
+      - partner.md
       - store.md
 
 defaults:

@@ -15,3 +15,7 @@
 - type: tiktok
   icon: "fab fa-tiktok"
   url: https://tiktok.com/@mcbrawls
+
+- type: status
+  icon: "fas fa-signal"
+  url: https://status.mcbrawls.net

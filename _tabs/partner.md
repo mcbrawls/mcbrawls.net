@@ -41,5 +41,5 @@ The review process can take any amount of time. We appreciate your patience as w
 ### Can I apply if my server is focused on multiple games?
 Absolutely! As long as Minecraft events regarding Brawls are one of the main focuses of your server, we’d love to consider your application.
 
-### What happens if my application is not accepted?**
+### What happens if my application is not accepted?
 If your application is not accepted, don’t worry! You can reapply in the future after growing your community or making adjustments based on our feedback.

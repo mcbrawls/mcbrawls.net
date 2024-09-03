@@ -55,4 +55,4 @@ Partners and staff can also create 'game events', which involve custom teams muc
 
 ## Can I partner with MC Brawls?
 
-Our partnership program is currently closed, but is being reworked and will open again for new applicants.
+View our partnership program [here.](/partner)

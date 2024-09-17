@@ -79,6 +79,10 @@ Patches of ice spawn around the map, making the map slippier!
 
 ![UFO Map](/img/game/rocket_spleef_map_ufo.png)
 
+## <i class="fas fa-cookie-bite"></i> Doughnut
+
+![Doughnut Map](/img/game/rocket_spleef_map_doughnut.png)
+
 # Last Stand
 
 At the 45 second mark, or when there are only 2 players left, the game will enter the Last Stand.

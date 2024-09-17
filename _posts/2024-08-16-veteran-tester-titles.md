@@ -18,7 +18,7 @@ The Tester title is being given to any player who joined the testing server duri
 
 ## Veteran Title
 
-The Veteran title is being givevn to any player who joined during Alpha.
+The Veteran title is being given to any player who joined during Alpha.
 
 ![Veteran Title Display](/img/veteran-title-display.png)
 

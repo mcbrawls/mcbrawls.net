@@ -4,6 +4,7 @@ author: andante
 date: 2024-09-03 12:40:00 +1000
 image:
     path: /img/banner.png
+published: false
 ---
 
 Hello! With the release of Beta, we're looking for feedback on the direction of Brawls. We would love to hear your opinions!

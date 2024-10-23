@@ -5,6 +5,7 @@ author: andante
 date: 2024-10-13 14:00:00 +0100
 categories: [ "News", "Patch Notes" ]
 hidden: true
+published: false
 ---
 
 [Release Article]()
@@ -12,11 +13,5 @@ hidden: true
 ## Changes
 
 - Added Medals
-- Added Event Pop-Up HUD setting
-    - Whether the event pop-up is displayed when earning experience and performing other actions.
 - Added Medal Pop-Up HUD setting
     - Medal Pop-Up HUD", "Whether the medal pop-up is displayed when earning a medal.
-
-## Fixes
-
-- Fixed Event Pop-Up HUD offsetting itself horizontally during the animation

@@ -14,9 +14,9 @@ timezone: Europe/London
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: MC Brawls # the main title
+title: MC Brawls (Competitive Minecraft Minigames)
 
-tagline: A Minecraft minigames server with a focus on the competitive edge # it will display as the sub-title
+tagline: A Minecraft minigames server with a focus on the competitive edge
 
 description: >- # used by seo meta and the atom feed
   MC Brawls is a Minecraft minigames server with a focus on creating the best game experiences with a competitive edge!
@@ -28,20 +28,20 @@ url: "https://mcbrawls.net"
 logo: /assets/img/favicons/android-chrome-512x512.png
 
 github:
-  username: mcbrawls # change to your github username
+  username: mcbrawls
 
 bluesky:
-  username: mcbrawls.net # change to your bluesky username
+  username: mcbrawls.net
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: MC Brawls
-  email: contact@mcbrawls.net # change to your email address
+  email: contact@mcbrawls.net
   links:
     # The first element serves as the copyright owner's link
-    - https://bsky.app/profile/mcbrawls.net # change to your bluesky homepage
-    - https://github.com/mcbrawls # change to your github homepage
+    - https://bsky.app/profile/mcbrawls.net
+    - https://github.com/mcbrawls
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username

@@ -28,8 +28,8 @@ url: "https://mcbrawls.net"
 github:
   username: mcbrawls # change to your github username
 
-twitter:
-  username: mcbrawls # change to your twitter username
+bluesky:
+  username: mcbrawls.net # change to your bluesky username
 
 social:
   # Change to your full name.
@@ -38,7 +38,7 @@ social:
   email: contact@mcbrawls.net # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/mcbrawls # change to your twitter homepage
+    - https://bsky.app/profile/mcbrawls.net # change to your bluesky homepage
     - https://github.com/mcbrawls # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username

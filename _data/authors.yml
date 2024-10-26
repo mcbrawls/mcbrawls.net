@@ -2,11 +2,11 @@
 # -------------------------------------
 # {author_id}:
 #   name: {full name}
-#   twitter: {twitter_of_author}
+#   bluesky: {bluesky_of_author}
 #   url: {homepage_of_author}
 # -------------------------------------
 
 andante:
   name: Daniel
-  twitter: andantett
-  url: https://twitter.com/andantett
+  bluesky: andante.dev
+  url: https://bsky.app/profile/andante.dev

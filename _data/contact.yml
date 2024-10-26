@@ -4,17 +4,13 @@
   icon: "fab fa-discord"
   url: https://discord.mcbrawls.net
 
-- type: x-twitter
-  icon: "fab fa-x-twitter"
-  url: https://twitter.com/mcbrawls
+- type: bluesky
+  icon: "fab fa-bluesky"
+  url: https://bsky.app/profile/mcbrawls.net
 
 - type: youtube
   icon: "fab fa-youtube"
   url: https://youtube.com/@mcbrawls
-
-- type: tiktok
-  icon: "fab fa-tiktok"
-  url: https://tiktok.com/@_mcbrawls
 
 - type: status
   icon: "fas fa-signal"

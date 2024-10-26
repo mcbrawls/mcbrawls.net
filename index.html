@@ -4,14 +4,45 @@ title: Home
 # Index page
 ---
 
-<center>
+<div style="text-align: center;">
   <img src="/img/banner.png">
   <h1><strong>MC Brawls</strong></h1>
   <p>A Minecraft minigames server with a focus on the competitive edge!<br>Compete and win!</p>
   <form action="/join">
     <input type="submit" style="background-color: #873e84; color: #ffffff; border-radius: 3px; border-style: none; font-weight: bold; font-size: x-large; padding: 10px 20px 10px 20px;" value="PLAY NOW" />
   </form>
-</center>
+
+  <br>
+
+  <div style="display: flex; justify-content: center;">
+    {% for entry in site.data.contact %}
+    {% case entry.type %}
+    {% when 'github' %}
+    {%- capture url -%}
+    https://{{ entry.type }}.com/{{ site[entry.type].username }}
+    {%- endcapture -%}
+    {% when 'email' %}
+    {% assign email = site.social.email %}
+    {%- capture url -%}
+    mailto:"{{ email }}"
+    {%- endcapture -%}
+    {% when 'rss' %}
+    {% assign url = '/feed.xml' | relative_url %}
+    {% else %}
+    {% assign url = entry.url %}
+    {% endcase %}
+    
+    {% if url %}
+    <a href="{{ url }}" aria-label="{{ entry.type }}" {% assign link_types='' %} {% unless entry.noblank %} target="_blank"
+      {% assign link_types='noopener noreferrer' %} {% endunless %} {% if entry.type=='mastodon' %} {% assign
+      link_types=link_types | append: ' me' | strip %} {% endif %} {% unless link_types==empty %} rel="{{ link_types }}" {%
+      endunless %} style="color: white; background-color: var(--sidebar-btn-bg); padding-left: .5rem; padding-right: .5rem; border-radius:10%; align-items: center; justify-content: center; text-align: center; margin-left: 0.5rem; font-size: 1.1rem; box-shadow: var(--sidebar-border-color) 0 0 0 1px; text-transform: uppercase;">
+      <i style="font-size: 1.2rem;" class="{{ entry.icon }}"></i>  <span style="font-weight: bold;">{{ entry.name }}</span>
+    </a>
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>
 
 <hr>
 

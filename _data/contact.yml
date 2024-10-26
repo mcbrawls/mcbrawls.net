@@ -1,17 +1,21 @@
 #  The contact options.
 
-- type: discord
+- name: Discord
+  type: discord
   icon: "fab fa-discord"
   url: https://discord.mcbrawls.net
 
-- type: bluesky
+- name: Bluesky
+  type: bluesky
   icon: "fab fa-bluesky"
   url: https://bsky.app/profile/mcbrawls.net
 
-- type: youtube
+- name: YouTube
+  type: youtube
   icon: "fab fa-youtube"
   url: https://youtube.com/@mcbrawls
 
-- type: status
+- name: Status
+  type: status
   icon: "fas fa-signal"
   url: https://status.mcbrawls.net

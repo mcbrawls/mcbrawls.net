@@ -10,6 +10,6 @@ excerpt: Take a look at all the games.
 
 {{ page.description }}
 
-![Banner]({{ page.banner }})
+![Banner]({{ page.image }})
 {% endif %}
 {% endfor %}

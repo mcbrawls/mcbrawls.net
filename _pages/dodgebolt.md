@@ -2,7 +2,7 @@
 layout: game
 title: Dodgebolt
 icon: fas fa-baseball
-banner: /img/game/dodgebolt_banner.png
+image: /img/game/dodgebolt_banner.png
 excerpt: Dodgebolt is the final showdown of MC Championship.
 ---
 
